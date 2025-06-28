@@ -354,3 +354,59 @@ header {
 }
 
 /* --------------------------------------------- AÑADIR A PARTIR DE ÉSTA PARTE --------------------------------------------- */
+.suscribite {
+  background-color: #0B0B0B;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Eurostile-BoldExtendedTwo', sans-serif;
+}
+
+.suscribite h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 12px 20px;
+  font-size: 14px;
+  width: 70%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.newsletter-form input::placeholder {
+  color: #ccc;
+}
+
+.newsletter-form button {
+  background-color: #FF0601;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  transition: background 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #cc0501;
+}
