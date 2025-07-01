@@ -529,8 +529,8 @@ header {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
 }
-.trailer-tag.free { background: #00BE55; }        /* verde */
-.trailer-tag.actualizado { background: #d316a8; }  /* fucsia */
+.trailer-tag.free { background: #FF0601; }        /* rojo */
+.trailer-tag.actualizado { background: #FF0601; }  /* rojo */
 .trailer-price { background: #00AEEF; }            /* celeste */
 
 /* ============ MODAL ============ */
