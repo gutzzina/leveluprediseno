@@ -576,3 +576,74 @@ header {
   cursor: pointer;
   line-height: 1;
 }
+
+
+.ellipse{
+  position: fixed;
+  top: -25vh;
+  right: -90vh;
+  transform: scale(0.8);
+}
+
+
+.titulo{
+  font-family: 'Eurostile-BoldExtendedTwo', sans-serif;
+  color: white;
+  font-size: 0.7rem ;
+  margin-left: 14vh ;
+  
+}
+.subtitulo{
+  font-family: 'Poppins',sans-serif;
+  color: white;
+  font-size: 0.7rem;
+  margin-top: 25px;
+  margin-left:14vh ;
+}
+
+.contenedor{
+  margin: 0 14vh;
+}
+.cards{
+  margin-top: 25px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+ 
+ 
+}
+
+.card{
+  position: relative;
+  width: 25%;
+  margin:0 ;
+  padding: 0;
+  
+}
+
+.boton{
+ position: absolute; 
+ top: 280px;
+ right: 10px;
+ background-color: #FF0601;
+ color: white;
+ border: none;
+ text-decoration:none;
+ width:100px ;
+ height:30px ;
+ padding: 5px 10px;
+ border-radius: 5px;
+ font-size: 16px;
+ cursor: pointer;
+ font-family: 'Poppins',sans-serif;
+ text-align: center;
+}
+
+
+
+.card img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 1;
+}
